@@ -1,4 +1,5 @@
 # liuxu
+<<<<<<< HEAD
 **前端技术：**
 
 - vue + element-ui 
@@ -32,3 +33,6 @@ liuxu
 ├── ly-search       -- 搜索服务
 ├── ly-upload       -- 上传文件服务
 ```
+=======
+This is a new repository
+>>>>>>> temp

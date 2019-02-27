@@ -1,8 +1,9 @@
 # 数据源
-spring:
-  datasource:
-    type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password:
-    url: jdbc:mysql://pig-mysql:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+ly:
+  jwt:
+    secret: ly@Login(Auth}*^31)&yun6%f3q2 # 登录校验的密钥
+    pubKeyPath: /Users/bystander/id_rsa.pub # 公钥地址
+    priKeyPath: /Users/bystander/id_rsa.pri # 私钥地址
+    expire: 30 # 过期时间,单位分钟
+    cookieName: LY_TOKEN
+    cookieMaxAge: 1800

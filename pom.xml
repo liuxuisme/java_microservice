@@ -20,9 +20,7 @@
         <module>ly-auth-center</module>
         <module>ly-cart</module>
         <module>ly-order</module>
-        <module>ly-money</module>
-        <module>ly-money</module>
-        <module>ly-money</module>
+        <module>ly-config</module>
     </modules>
     <packaging>pom</packaging>
 
